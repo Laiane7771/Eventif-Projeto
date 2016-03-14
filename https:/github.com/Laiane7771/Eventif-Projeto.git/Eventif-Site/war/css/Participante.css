@@ -1,0 +1,240 @@
+/*MenuTelaInicialParticipante*/
+body{
+	padding:0;
+	margin:0;
+	background:green;
+}
+#PainelMenuEsquerdo{
+	position: relative;
+	width: 20%;
+	height: 100%;
+	background: green;
+	float: left;
+	clean: both;
+}
+
+#painelDireito{
+	position: relative;
+	width: 80%;
+	height: 100%;
+	background: gray;
+	float: right;
+}
+
+#rodape{
+	position: relative;
+	width: 20%;
+	height: 100%;
+}
+
+.hpPainelLogoSiteParticipante{
+	position: relative;
+	width: 10%;
+	height: 100%;
+	
+}
+
+.hpPainelEspacoNome{
+	position: relative;	
+}
+
+.hpPainelEventoParticipante{
+	position: relative;
+	width: 10%;
+	height: 100%;	
+}
+
+.hpPainelLogoutParticipante{
+	position: relative;
+	width: 10%;
+	height: 100%;	
+}
+
+.vpPainelMenuTelaInicialParticipante{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 1px solid;
+}
+
+.vpPainelEventoParticipante{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.iLogoSiteParticipante{
+	position: relative;
+	
+}
+
+.iEventoParticipante{
+	position: relative;
+	
+}
+
+.iLogoutParticipante{
+	position: relative;
+	
+}
+
+.iMudaMenuParticipante{
+	position: relative;
+	cursor: pointer;
+}
+
+.lbNomeParticipanteMenu{
+	position: relative;
+	
+}
+
+.lbEventoParticipante{
+	position: relative;
+	
+}
+
+
+.lbLogoutParticipante{
+	position: relative;
+	
+}
+
+/*********************************/
+/*HomeTelaInicialParticipanteView*/
+/*********************************/
+
+.hpPainelTituloHome{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.hpPainelTextboxButtonPesquisar{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+.hpPainelTabelaEventos{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+.vpPainelPesquisarEventoTotal{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+.vpPainelGuardaPaginaPesquisarEvento{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+.lbTituloPaginaPesquisar{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.btnPesquisarEventoParticipante{
+	position: relative;
+	width: 27%;
+	height: 200%;
+	
+}
+.tbPesquisarEvento{
+	position: relative;
+	width: 76%;
+	height: 100%;	
+}
+.ftTabelaEventoTelaParticipante{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+/******************************************/
+/*PainelDeMenusCantoEsquerdoView***********/
+/******************************************/
+
+.hpPainelNomeParticipante{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.hpPainelLabelCertificados{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+
+.hpPainelLogoutParticipante{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+
+.lbNomeParticipante{
+	position: relative;
+	
+}
+
+
+.lbCertificadoParticipante{
+	position: relative;
+	
+}
+
+.lbLogoutParticipante{
+	position: relative;
+	
+}
+
+
+/******************************************/
+/*ParticipantePesquisarAtividadesPopupView*/
+/******************************************/
+.hpPainelTituloPopupAtividades{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.hpPainelPesquisarAtividadesemParticipante{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+.hpPainelPainelTabelaAtividadesemParticipante{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+.vpPainelPopupPesquisareInscreveremAtividade{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+
+.lbTituloPopupAtividades{
+	position: relative;
+		
+}
+
+.tbPesquisarAtividades{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+
+.btnPesquisarAtividades{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+.ftTabelaAtividades{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+
+

@@ -1,0 +1,469 @@
+body{
+	margin:0;
+	padding:0;
+}
+/*===============================*/
+/*CoordenadorPesquisarMonitorView*/
+/*===============================*/
+.hpPainelTituloPesquisarMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelTituloPesquisarMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;	
+}
+
+.hpPainelTabelaMonitores{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.vpPainelPesquisarMonitor{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.lbPesquisarMonitor{
+	positon: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.tbPesquisarMonitor{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.btnPesquisarMonitor{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.ftTabelaMonitores{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+/*======================================*/
+/*CoordenadorPesquisarAtividadePopupView*/
+/*======================================*/
+
+.hpPainelTituloPopupAtividadeCoord{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelTextboxButtonPesquisar{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelTabelaAtividadesCoord{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+
+.vpPainelInscreverAtividadesPopup{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.lbTituloPagina{
+	position: relative;
+	
+}
+
+.tbPesquisarAtividadesCoord{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.btnPesquisarAtividadeCoord{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.ftTabelaAtividadesCoord{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+/*==================================*/
+/*CoordenadorImprimirCertificadoView*/
+/*==================================*/
+
+.hpPainelTituloPaginaCadastrarMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelInformacoesMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelNomeMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+
+.hpPainelMatriculaMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelRgMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelCpfMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelContatoMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelTelefoneMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelEmailMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelEnderecoMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelEnderecodoMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelNumeroBairroMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.hpPainelCidadeUfMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+
+.vpPainelInformacoesPessoaisMonitor{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+
+.vpPainelContatoMonitor{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+
+.vpPainelEnderecoMonitor{
+	position: relative;
+	width: 10%;
+	height: 100%;
+}
+
+.lbTituloPaginaCadastrarMonitor{
+	position: relative;
+	
+}
+
+.lbInformacoesMonitor{
+	position: relative;
+	
+}
+
+.lbNomeMonitor{
+	position: relative;
+}
+
+.lbMatriculaMonitor{
+	position: relative;
+}
+
+.lbRgMonitor{
+	position: relative;
+}
+
+.lbCpfMonitor{
+	position: relative;
+}
+
+.lbContatoMonitor{
+	position: relative;
+}
+
+.lbTelefoneMonitor{
+	position: relative;
+}
+
+.lbEmailMonitor{
+	position: relative;
+}
+
+
+.lbEnderecoMonitor{
+	position: relative;
+}
+
+.lbEnderecodoMonitor{
+	position: relative;
+}
+
+.lbNumeroMonitor{
+	position: relative;
+}
+
+.lbBairroMonitor{
+	position: relative;
+}
+
+.lbBairroMonitor{
+	position: relative;
+}
+
+.lbCidadeMonitor{
+	position: relative;
+}
+
+.lbEstadoMonitor{
+	position: relative;
+}
+
+.tbNomeMonitor{
+	position: relative;
+}
+
+.tbMatriculaMonitor{
+	position: relative;
+}
+
+.tbRgMonitor{
+	position: relative;
+}
+
+.tbCpfMonitor{
+	position: relative;
+}
+
+.tbTelefoneMonitor{
+	position: relative;
+}
+
+.tbEmailMonitor{
+	position: relative;
+}
+
+.tbEnderecodoMonitor{
+	position: relative;
+}
+
+.tbNumeroMonitor{
+	position: relative;
+}
+
+.tbCidadeMonitor{
+	position: relative;
+}
+
+.listUfMonitor{
+	position: relative;
+}
+
+
+
+/*=================================*/
+/*CoordenadorCadastrarAtividadeView*/
+/*=================================*/
+
+.hpPainelTituloPaginaCadastrarAtividade{
+	
+}
+
+
+.hpPainelInformacoesAtividades{
+	
+}
+
+.hpPainelNomeAtividades{
+	
+}
+
+.hpPainelDescricaoAtividades{
+	
+}
+
+.hpPainelTipoAtividade{
+	
+}
+
+
+.hpPainelMinistranteAtividade{
+	
+}
+
+.hpPainelDataAtividade{
+	
+}
+
+.hpPainelHoraInicioAtividade{
+	
+}
+
+.hpPainelHoraEncerraAtividade{
+	
+}
+
+.hpPainelNumeroVagasAtividades{
+	
+}
+
+.hpPainelCargaHorariaAtividade{
+	
+}
+
+.vpPainelInformacoesAtividades{
+	
+}
+
+.vpPainelCadastrarAtividades{
+	
+}
+
+.lbTituloPaginaAtividades{
+	
+}
+
+.lbInformacoesAtividades{
+	
+}
+
+.lbNomeAtividades{
+	
+}
+
+.lbDescricaoAtividades{
+	
+}
+
+.lbTipodeAtividade{
+	
+}
+
+.lbMinistranteAtividade{
+	
+}
+
+.lbDataAtividade{
+	
+}
+
+.lbHoraInicioAtividade{
+	
+}
+
+.lbHoraEncerraAtividade{
+	
+}
+
+.lbCargaHorariaAtividade{
+	
+}
+
+.lbNumeroVagasAtividade{
+	
+}
+
+.tbNomeAtividade{
+	
+}
+
+.tbMinistranteAtividade{
+
+}
+
+.tbDataAtividade{
+	
+}
+
+.tbHoraInicioAtividade{
+	
+}
+
+.tbHoraEncerraAtividade{
+	
+}
+
+.tbCargaHorariaAtividade{
+	
+}
+
+.tbNumeroVagasAtividades{
+	
+}
+
+.taDescricaoAtividades{
+	
+}
+
+.listTipodeAtividade{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
