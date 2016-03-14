@@ -78,12 +78,9 @@ public class AppController  implements Presenter, ValueChangeHandler<String>{
 		this.container = container;
 
 		Presenter presenter = null;
-		
-		/*TelaInicialView tivv = new TelaInicialView();
-		TelaInicialPresenter tip = new TelaInicialPresenter(tivv, eventBus);*/
+
 		HomeView homeView = new HomeView();
 		HomePresenter homePresenter = new HomePresenter(homeView, eventBus);
-		//container.add(tivv.asWidget());
 		container.add(homeView.asWidget());
 		
 		if ("".equals(History.getToken())) {

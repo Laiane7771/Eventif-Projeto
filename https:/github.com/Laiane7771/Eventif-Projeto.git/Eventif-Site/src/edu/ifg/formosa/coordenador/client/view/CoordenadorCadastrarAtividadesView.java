@@ -16,6 +16,7 @@ public class CoordenadorCadastrarAtividadesView extends Composite{
 	private HorizontalPanel hpPainelDescricaoAtividades;
 	private HorizontalPanel hpPainelTipoAtividade;
 	private HorizontalPanel hpPainelMinistranteAtividade;
+	private HorizontalPanel hpPainelEmailMinistrante;
 	private HorizontalPanel hpPainelDataAtividade;
 	private HorizontalPanel hpPainelHoraInicioAtividade;
 	private HorizontalPanel hpPainelHoraEncerraAtividade;
@@ -29,6 +30,7 @@ public class CoordenadorCadastrarAtividadesView extends Composite{
 	private Label lbDescricaoAtividades;
 	private Label lbTipodeAtividade;
 	private Label lbMinistranteAtividade;
+	private Label lbEmailMinistrante;
 	private Label lbDataAtividade;
 	private Label lbHoraInicioAtividade;
 	private Label lbHoraEncerraAtividade;
@@ -36,6 +38,7 @@ public class CoordenadorCadastrarAtividadesView extends Composite{
 	private Label lbNumeroVagasAtividade;
 	private TextBox tbNomeAtividade;
 	private TextBox tbMinistranteAtividade;
+	private TextBox tbEmailMinistrante;
 	private TextBox tbDataAtividade;
 	private TextBox tbHoraInicioAtividade;
 	private TextBox tbHoraEncerraAtividade;
@@ -122,6 +125,19 @@ public class CoordenadorCadastrarAtividadesView extends Composite{
 		//---------------------------------------------
 		//--------------------------------------------
 		
+		hpPainelEmailMinistrante = new HorizontalPanel();
+		hpPainelEmailMinistrante.setStyleName("hpPainelEmailMinistrante");
+		
+		lbEmailMinistrante = new Label("Email:");
+		lbEmailMinistrante.setStyleName("lbEmailMinistrante");
+		
+		tbEmailMinistrante = new TextBox();
+		tbEmailMinistrante.setStyleName("tbEmailMinistrante");
+		
+		hpPainelEmailMinistrante.add(lbEmailMinistrante);//add item
+		hpPainelEmailMinistrante.add(tbEmailMinistrante);//add item
+		//-------------------------------------------------
+		//-----------------------------------------------------
 		hpPainelDataAtividade = new HorizontalPanel();
 		hpPainelDataAtividade.setStyleName("hpPainelDataAtividade");
 		
@@ -204,6 +220,7 @@ public class CoordenadorCadastrarAtividadesView extends Composite{
 		vpPainelInformacoesAtividades.add(hpPainelDescricaoAtividades); //add item
 		vpPainelInformacoesAtividades.add(hpPainelTipoAtividade);//add item
 		vpPainelInformacoesAtividades.add(hpPainelMinistranteAtividade); //add item
+		vpPainelInformacoesAtividades.add(hpPainelEmailMinistrante);//add item
 		vpPainelInformacoesAtividades.add(hpPainelDataAtividade);//add item
 		vpPainelInformacoesAtividades.add(hpPainelHoraInicioAtividade);//add item
 		vpPainelInformacoesAtividades.add(hpPainelHoraEncerraAtividade);//add item
