@@ -4,6 +4,6 @@
 	<inherits name='com.google.gwt.user.User' />
 	<entry-point class='edu.ifg.formosa.gerente.client.Gerente'/>
 	<source path="client"/>
-	<add-linker name="xsiframe"/>
+	<source path="shared"/>
 </module>
 
