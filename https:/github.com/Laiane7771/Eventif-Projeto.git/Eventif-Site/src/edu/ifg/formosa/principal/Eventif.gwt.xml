@@ -1,22 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module rename-to='eventif'>
-  <!-- Inherit the core Web Toolkit stuff.                        -->
-  <inherits name='com.google.gwt.user.User'/>
-  
-  <!-- Inherit the default GWT style sheet.  You can change       -->
-  <!-- the theme of your GWT application by uncommenting          -->
-  <!-- any one of the following lines.                            -->
-  <!--   <inherits name='com.google.gwt.user.theme.clean.Clean'/>-->
-  
-  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
-  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
-
-  <!-- Other module inherits                                      -->
-
-  <!-- Specify the app entry point class.                         -->
-  <entry-point class='edu.ifg.formosa.principal.client.Eventif'/>
-  <!-- Specify the paths for translatable code                    -->
-  <source path='client'/>
-  <source path='shared'/>
-  <add-linker name="xsiframe"/>
+ <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.6.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.6.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to = "eventif">
+	<inherits name="com.google.gwt.user.User" />
+	<entry-point class="edu.ifg.formosa.principal.client.Eventif"/>
+	<source path="client"/>
+	<source path="shared"/>
 </module>
